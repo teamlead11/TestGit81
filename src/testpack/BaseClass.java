@@ -11,4 +11,8 @@ public class BaseClass {
 		System.out.println("test method");
 	}
 
+	public void addBySatham() {
+		System.out.println("test method added by satham");
+	}
+
 }
