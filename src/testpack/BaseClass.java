@@ -14,5 +14,9 @@ public class BaseClass {
 	public void addBySatham() {
 		System.out.println("test method added by satham");
 	}
+	public void addByAbinaya() {
+		// TODO Auto-generated method stub
+System.out.println("Test method added by Abinaya");
+	}
 
 }
