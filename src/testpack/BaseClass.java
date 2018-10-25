@@ -7,4 +7,8 @@ public class BaseClass {
 		System.out.println("this is my base class");
 	}
 
+	public void add() {
+		System.out.println("test method");
+	}
+
 }
