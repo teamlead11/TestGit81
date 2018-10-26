@@ -25,8 +25,13 @@ public class BaseClass {
 	public void addByAnkita(){
 		System.out.println("Test method  added by Ankita");
 	}
-	private void mani() {
+	public void mani() {
 		// TODO Auto-generated method stub
 System.out.println("create by mani");
 	}
+	public void vino() {
+		// TODO Auto-generated method stub
+System.out.println("create by vino");
+	}
+	
 }
