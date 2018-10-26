@@ -12,15 +12,15 @@ public class BaseClass {
 	}
 
 	public void addBySatham() {
-		System.out.println("test method added by satham");
+		System.out.println("test method added by satham aome changes");
 	}
+
 	public void addByAbinaya() {
 		// TODO Auto-generated method stub
-System.out.println("Test method added by Abinaya");
+		System.out.println("Test method added by Abinaya");
 	}
- void SyedSatham()
- {
-	 System.out.println("Successfully created clone");
- }
+	public void addByJuliet() {
+		System.out.println("Method added by Juliet");
+	}
 
 }
