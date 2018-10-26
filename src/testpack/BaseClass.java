@@ -11,12 +11,14 @@ public class BaseClass {
 		System.out.println("test method");
 	}
 
-	public void addBySatham() {
-		System.out.println("test method added by satham");
+	public void addBySyedSatham() {
+		System.out.println("test method added by satham and confirmed changes");
+		System.out.println("Successfully added by Syed on 26/10");
 	}
+
 	public void addByAbinaya() {
 		// TODO Auto-generated method stub
-System.out.println("Test method added by Abinaya");
+		System.out.println("Test method added by Abinaya");
 	}
  void SyedSatham()
  {
