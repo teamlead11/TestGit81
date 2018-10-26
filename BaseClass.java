@@ -12,26 +12,12 @@ public class BaseClass {
 	}
 
 	public void addBySatham() {
-		System.out.println("test method added by satham aome changes");
+		System.out.println("test method added by satham");
 	}
-
 	public void addByAbinaya() {
 		// TODO Auto-generated method stub
-		System.out.println("Test method added by Abinaya");
+System.out.println("Test method added by Abinaya");
 	}
-	public void addByJuliet() {
-		System.out.println("Method added by Juliet");
-	}
-	public void addByAnkita(){
-		System.out.println("Test method  added by Ankita");
-	}
-	public void mani() {
-		// TODO Auto-generated method stub
-System.out.println("create by mani");
-	}
-	public void vino() {
-		// TODO Auto-generated method stub
-System.out.println("create by vino");
-	}
-	
+	public void addBySatham() {
+		System.out.println("succesfully update by satham at 8:25 pm");
 }
