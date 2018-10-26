@@ -22,6 +22,8 @@ System.out.println("Test method added by Abinaya");
  {
 	 System.out.println("Successfully created");
  }
-
+ public void Syedtest()
+ {
+	 System.out.println("Welcome");
 }
  
