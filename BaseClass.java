@@ -23,7 +23,7 @@ System.out.println("Test method added by Abinaya");
 		// TODO Auto-generated method stub
 System.out.println("Test method added by Sakthi");
 	}
-	public void addByAnkita()
+	public void addByAnkita(){
 		System.out.println("Changes by Ankita");
-
+	}
 }
