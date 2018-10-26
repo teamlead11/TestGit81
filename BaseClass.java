@@ -18,5 +18,6 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 System.out.println("Test method added by Abinaya");
 	}
-
+	public void addBySatham() {
+		System.out.println("succesfully update by satham at 8 pm");
 }
