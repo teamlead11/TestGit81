@@ -22,5 +22,7 @@ public class BaseClass {
 	public void addByJuliet() {
 		System.out.println("Method added by Juliet");
 	}
-
+	public void addByAnkita(){
+		System.out.println("Test method  added by Ankita");
+	}
 }
