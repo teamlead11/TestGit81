@@ -20,7 +20,7 @@ System.out.println("Test method added by Abinaya");
 	}
  void SyedSatham()
  {
-	 System.out.println("Successfully created clone");
+	 System.out.println("Successfully created");
  }
 
 }
