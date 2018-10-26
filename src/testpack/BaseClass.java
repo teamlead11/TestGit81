@@ -18,5 +18,10 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 System.out.println("Test method added by Abinaya");
 	}
+ void SyedSatham()
+ {
+	 System.out.println("Successfully created clone");
+ }
 
 }
+ 
