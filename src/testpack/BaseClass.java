@@ -12,7 +12,8 @@ public class BaseClass {
 	}
 
 	public void addBySatham() {
-		System.out.println("test method added by satham aome changes");
+		System.out.println("test method added by satham and confirmed changes");
+		System.out.println("Successfully  26/10");
 	}
 
 	public void addByAbinaya() {
