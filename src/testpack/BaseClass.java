@@ -25,12 +25,16 @@ public class BaseClass {
 		
 		System.out.println("papu");
 	
-
+  }
 	public void jeroprakash() {
 		// TODO Auto-generated method stub
 System.out.println("add by virat");
 	
 
+	}
+	private void mani() {
+		// TODO Auto-generated method stub
+System.out.println("crete by mani");
 	}
 
 }
