@@ -10,4 +10,9 @@ public class TestCase1 {
 	public void testcase1() {
 		System.out.println("this is my test case1");
 	}
+
+	public void testcase1Byuser1() {
+		System.out.println("this is my test case1 by syed");
+	}
+
 }
