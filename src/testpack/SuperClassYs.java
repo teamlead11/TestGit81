@@ -5,8 +5,9 @@ public class SuperClassYs {
 	public void getName() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("pap");
+		System.out.println("new branch");
 
+	
 	}
 
 }
