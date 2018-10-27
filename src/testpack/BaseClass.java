@@ -68,4 +68,22 @@ public class BaseClass {
 		System.out.println("Reversal of String is: " + rev);
 	}
 	
-}
+		
+		
+	{
+		//sum of odd number
+		//created by papu
+		int i =0;
+		for(int k =1; k<=3;k++) {
+			if(k%2==1) {
+				i=i+k;
+			}
+			}
+		System.out.println(i);
+
+		}
+		
+	}
+	
+
+
