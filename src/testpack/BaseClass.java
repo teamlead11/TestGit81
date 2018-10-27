@@ -4,7 +4,8 @@ public class BaseClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("this is my base class");
+		System.out.println("This is a Base Class");
+		reverse();
 	}
 
 	public void add() {
@@ -35,5 +36,13 @@ public class BaseClass {
 	public void reverseByManobalatest() {
 		System.out.println("add logic for string reverse");
 	}
-
+	public static void reverse() {
+		String s1="syed satham", s2="";
+		for(int i=s1.length()-1; i>=0;i--) {
+			s2=s2+s1.charAt(i);}
+	System.out.println(s2);
+	
+	
+	
+	}
 }
