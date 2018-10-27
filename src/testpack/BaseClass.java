@@ -6,6 +6,9 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("This is a Base Class");
 		reversedbysyed();
+
+		BaseClass obj = new BaseClass();
+		obj.stringReverse();
 	}
 
 	public void add() {
@@ -42,7 +45,27 @@ public class BaseClass {
 			s2=s2+s1.charAt(i);}
 	System.out.println(s2);
 	
-	
-	
 	}
+	public void stringReverse() {
+		// TODO Auto-generated method stub
+		String name = "ABINAYA", rev = "";
+		System.out.println("Entered string is " + name);
+		for (int i = name.length() - 1; i >= 0; i--) {
+			char c = name.charAt(i);
+			rev = rev + c;
+		}
+		System.out.println("Reversal of String is: " + rev);
+	}	
+	
+	public void stringReverseBharath() {
+		// TODO Auto-generated method stub
+		String name = "Bharath", rev = "";
+		System.out.println("Entered string is " + name);
+		for (int i = name.length() - 1; i >= 0; i--) {
+			char c = name.charAt(i);
+			rev = rev + c;
+		}
+		System.out.println("Reversal of String is: " + rev);
+	}
+	
 }
