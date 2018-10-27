@@ -18,6 +18,7 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 System.out.println("Test method added by Abinaya");
 	}
+<<<<<<< HEAD
 	
 	public void addBySakthi() {
 		// TODO Auto-generated method stub
@@ -26,4 +27,9 @@ System.out.println("Test method");
 
 	}
 
+=======
+	public void addBySatham() {
+		System.out.println("succesfully update by satham at 8:25 pm");
+		System.out.println("Vinoth");
+>>>>>>> 06c611d286defb7986465b3098aefb813da8a409
 }
