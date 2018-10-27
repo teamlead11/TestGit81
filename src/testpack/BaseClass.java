@@ -19,18 +19,21 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("Test method added by Abinaya");
 	}
-  
-  public void addbyPapu() {
+
+	public void addbyPapu() {
 		// TODO Auto-generated method stub
-		
+
 		System.out.println("papu");
-  }
+	}
 
 	public void jeroprakash() {
 		// TODO Auto-generated method stub
-System.out.println("add by virat");
-	
+		System.out.println("add by virat");
 
+	}
+
+	public void reverseByManobalatest() {
+		System.out.println("add logic for string reverse");
 	}
 
 }
