@@ -22,7 +22,7 @@ public class BaseClass {
 	
 	public void jeroprakash() {
 		// TODO Auto-generated method stub
-System.out.println("add by virat");
+		System.out.println("add by virat");
 	}
 
 }
