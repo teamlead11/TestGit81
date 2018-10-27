@@ -26,6 +26,10 @@ System.out.println("Test method added by Sakthi");
 System.out.println("Test method");
 
 	}
+	private void addbyjero() {
+		// TODO Auto-generated method stub
+System.out.println("create vk");
+	}
 
 =======
 	public void addBySatham() {
