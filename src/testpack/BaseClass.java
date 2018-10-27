@@ -69,19 +69,17 @@ public class BaseClass {
 	}
 	
 		
-		
-	{
+{
 		//sum of odd number
 		//created by papu
 		int i =0;
-		for(int k =1; k<=3;k++) {
-			if(k%2==1) {
-				i=i+k;
+		for(int j=1; j<=3;j++) {
+			if(j%2==1) {
+				i=i+j;
 			}
 			}
 		System.out.println(i);
-
-		}
+}
 		
 	}
 	
