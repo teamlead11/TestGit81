@@ -22,5 +22,8 @@ public class BaseClass {
 	public void sri(){
 		System.out.println("test added by sri");
 	}
+	public void sri1(){
+		System.out.println("Test with some changes");
+	}
 
 }
