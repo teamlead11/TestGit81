@@ -6,7 +6,7 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("This is a Base Class");
 		reverse();
-		BaseClass obj=new BaseClass();
+		BaseClass obj = new BaseClass();
 		obj.stringReverse();
 	}
 
@@ -38,23 +38,44 @@ public class BaseClass {
 	public void reverseByManobalatest() {
 		System.out.println("add logic for string reverse");
 	}
+
 	public static void reverse() {
-		String s1="syed satham", s2="";
-		for(int i=s1.length()-1; i>=0;i--) {
-			s2=s2+s1.charAt(i);}
-	System.out.println(s2);
-	
-	
-	
+		String s1 = "syed satham", s2 = "";
+		for (int i = s1.length() - 1; i >= 0; i--) {
+			s2 = s2 + s1.charAt(i);
+		}
+		System.out.println(s2);
+
 	}
+
 	public void stringReverse() {
 		// TODO Auto-generated method stub
-String name="ABINAYA",rev="";
-System.out.println("Entered string is " + name);
-for (int i = name.length()-1; i>=0 ; i--) {
-	char c = name.charAt(i);
-	rev=rev+c;
-}
-System.out.println("Reversal of String is: " + rev);
+		String name = "ABINAYA", rev = "";
+		System.out.println("Entered string is " + name);
+		for (int i = name.length() - 1; i >= 0; i--) {
+			char c = name.charAt(i);
+			rev = rev + c;
+		}
+		System.out.println("Reversal of String is: " + rev);
 	}
+	
+	
+	public void stringReverseBharath() {
+		// TODO Auto-generated method stub
+		String name = "Bharath", rev = "";
+		System.out.println("Entered string is " + name);
+		for (int i = name.length() - 1; i >= 0; i--) {
+			char c = name.charAt(i);
+			rev = rev + c;
+		}
+		System.out.println("Reversal of String is: " + rev);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
