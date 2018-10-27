@@ -70,18 +70,19 @@ public class BaseClass {
 	
 		
 {
-		//sum of odd number
-		//created by papu
-		int i =0;
-		for(int j=1; j<=3;j++) {
-			if(j%2==1) {
-				i=i+j;
-			}
-			}
-		System.out.println(i);
-}
-		
+	 {
+		 int lCaseCount =  0;
+		 String s = "Welcome To JAVA Clas @ 12345";
+		 for (int i = 0; i < s.length(); i++) {
+		 char ch = s.charAt(i);
+		 if (Character.isLowerCase(ch)) {
+		 lCaseCount++;
+		 } 
+		 }
+		 System.out.println("Lower Case Count code by prabhapapu: " + lCaseCount);
+		 }
 	}
 	
+}
 
 
