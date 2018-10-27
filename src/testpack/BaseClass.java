@@ -36,5 +36,8 @@ System.out.println("add by virat");
 		// TODO Auto-generated method stub
 System.out.println("crete by mani");
 	}
+	public void test(){
+		System.out.println("created by sri");
+	}
 
 }
