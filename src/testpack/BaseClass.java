@@ -1,5 +1,7 @@
 package testpack;
 
+import java.util.Scanner;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
@@ -83,6 +85,24 @@ public class BaseClass {
 		 }
 	 
 	}
+<<<<<<< HEAD
+	
+	public void merlinStringReverse()
+	{
+	String str, rev = "";
+	
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a String");
+    str = sc.nextLine();
+   
+    int length = str.length();
+    for (int i = length - 1 ; i >= 0 ; i--)
+    rev = rev + str.charAt(i);
+       
+    System.out.println("Given String got Reversed:" + rev);
+	}
+
+=======
 public void reversejerovirat() {
 	// TODO Auto-generated method stub
 	String s ="jerovirat" , rev="";
@@ -95,6 +115,7 @@ public void reversejerovirat() {
 }
 
 
+>>>>>>> d8111a71508fdfdf7a3aa44c4e7b7cf3b6b9b89c
 }
 
 	
