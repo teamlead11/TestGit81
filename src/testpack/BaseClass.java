@@ -1,5 +1,7 @@
 package testpack;
 
+import java.util.Scanner;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
@@ -83,6 +85,21 @@ public class BaseClass {
 		 }
 	}
 	
+	public void merlinStringReverse()
+	{
+	String str, rev = "";
+	
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a String");
+    str = sc.nextLine();
+   
+    int length = str.length();
+    for (int i = length - 1 ; i >= 0 ; i--)
+    rev = rev + str.charAt(i);
+       
+    System.out.println("Given String got Reversed:" + rev);
+	}
+
 }
 
 
