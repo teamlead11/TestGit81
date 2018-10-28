@@ -83,7 +83,9 @@ public class BaseClass {
 		 }
 		 System.out.println("Lower Case Count code by prabhapapu: " + lCaseCount);
 		 }
+	 
 	}
+<<<<<<< HEAD
 	
 	public void merlinStringReverse()
 	{
@@ -100,6 +102,23 @@ public class BaseClass {
     System.out.println("Given String got Reversed:" + rev);
 	}
 
+=======
+public void reversejerovirat() {
+	// TODO Auto-generated method stub
+	String s ="jerovirat" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+		
+	}
+
 }
+
+
+>>>>>>> d8111a71508fdfdf7a3aa44c4e7b7cf3b6b9b89c
+}
+
+	
+
 
 
