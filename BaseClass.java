@@ -43,7 +43,7 @@ private void Jero() {
 
 }
 public void reverse() {
-	// TODO Auto-generated method stub
+	
 	String s ="sakthi" , rev="";
 	for(int i=s.length()-1;i>=0;i--) {
 		rev=rev+s.charAt(i);
