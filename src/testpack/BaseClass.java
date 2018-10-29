@@ -118,7 +118,14 @@ public void reversejerovirat() {
 >>>>>>> d8111a71508fdfdf7a3aa44c4e7b7cf3b6b9b89c
 }
 
-	
+public void reversesri(){
+	String s= "sriram";
+	String rev="";
+	for (int i=s.length()-1;i>=0;i--){
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+	}
+}
 
 
 
