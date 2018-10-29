@@ -42,4 +42,11 @@ private void Jero() {
 	System.out.println("conflicts resolved by me");
 
 }
+public void reverse() {
+	// TODO Auto-generated method stub
+	String s ="sakthi" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+	}}
 
