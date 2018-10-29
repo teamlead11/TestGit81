@@ -144,5 +144,13 @@ public void reversemano() {
     System.out.println(reverse);
 	
 }
-
+public void reverseAnkita() {
+	// TODO Auto-generated method stub
+	String s ="Ankita" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+		
+	}
+}
 }
