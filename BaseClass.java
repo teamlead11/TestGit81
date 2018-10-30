@@ -37,9 +37,12 @@ System.out.println("create vk");
 		System.out.println("Vinoth");
 >>>>>>> 06c611d286defb7986465b3098aefb813da8a409
 }
+<<<<<<< HEAD
+=======
 private void Jero() {
 	// TODO Auto-generated method stub
 	System.out.println("conflicts resolved by me");
 
 }
+>>>>>>> 97a7f2caf8a780177912cf6d4fd0f3fb551c1909
 
