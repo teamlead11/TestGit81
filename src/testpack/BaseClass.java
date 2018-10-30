@@ -152,6 +152,10 @@ public void reverseAnkita() {
 	}
 }
 
+<<<<<<< HEAD
+	private void syed() {
+System.out.println("Hello Guys");
+=======
 public void reverse(){
 	String s= "sakthi";
 	String rev="";
@@ -159,6 +163,7 @@ public void reverse(){
 		rev=rev+s.charAt(i);
 		System.out.println(rev);
 		System.out.println("sakthi");
+>>>>>>> b208b83955b3c2cd3fe824b2d8522c09329ac93f
 	}
 }
 }
