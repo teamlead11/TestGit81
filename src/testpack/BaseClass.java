@@ -197,24 +197,6 @@ public class BaseClass
 
 	}
 
-	public void reverseJuls() {
-		System.out.println("Enter string to reverse:");
-
-		Scanner read1 = new Scanner(System.in);
-		String str1 = read1.nextLine();
-		String reverse1 = "";
-
-		for (int i = str1.length() - 1; i >= 0; i--) {
-			reverse1 = reverse1 + str1.charAt(i);
-		}
-
-		System.out.println("Reversed string is:");
-		System.out.println(reverse1);
-
-	}
-	private void syed() {
-		// TODO Auto-generated method stub
-		System.out.println("Hi Guys, How are you all");
 	}
 
 }
