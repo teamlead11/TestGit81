@@ -151,11 +151,43 @@ public void reverseAnkita() {
 		
 	}
 }
-
 <<<<<<< HEAD
+	
+public void reverseVinoth()
+	{
+		System.out.println("Enter string to reverse:");
+	    
+	    Scanner read = new Scanner(System.in);
+	    String str = read.nextLine();
+	    String reverse = "";
+	    
+	    
+	    for(int i = str.length() - 1; i >= 0; i--)
+	    {
+	        reverse = reverse + str.charAt(i);
+	    }
+	    
+	    System.out.println("Reversed string is:");
+	    System.out.println(reverse);
+		
+	}
+public void reversemanibharathi() {
+	// TODO Auto-generated method stub
+	String s ="manibharathi" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+		
+	}
+
+
+}
+
+
+
 	private void syed() {
 System.out.println("Hello Guys");
-=======
+	}
 public void reverse(){
 	String s= "sakthi";
 	String rev="";
@@ -163,7 +195,7 @@ public void reverse(){
 		rev=rev+s.charAt(i);
 		System.out.println(rev);
 		System.out.println("sakthi");
->>>>>>> b208b83955b3c2cd3fe824b2d8522c09329ac93f
+
 	}
 }
 }
