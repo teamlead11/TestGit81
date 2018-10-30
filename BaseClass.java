@@ -37,11 +37,14 @@ System.out.println("create vk");
 		System.out.println("Vinoth");
 >>>>>>> 06c611d286defb7986465b3098aefb813da8a409
 }
+<<<<<<< HEAD
+=======
 private void Jero() {
 	// TODO Auto-generated method stub
 	System.out.println("conflicts resolved by me");
 
 }
+<<<<<<< HEAD
 public void reverse() {
 	
 	String s ="sakthi" , rev="";
@@ -49,4 +52,7 @@ public void reverse() {
 		rev=rev+s.charAt(i);
 		System.out.println(rev);
 	}}
+=======
+>>>>>>> 97a7f2caf8a780177912cf6d4fd0f3fb551c1909
+>>>>>>> a8b371c710d5cee51f051705e3c0de15c3fcd75d
 

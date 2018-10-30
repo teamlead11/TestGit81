@@ -85,7 +85,6 @@ public class BaseClass {
 		 }
 	 
 	}
-
 	
 	public void merlinStringReverse()
 	{
@@ -102,7 +101,6 @@ public class BaseClass {
     System.out.println("Given String got Reversed:" + rev);
 	}
 
-
 public void reversejerovirat() {
 	// TODO Auto-generated method stub
 	String s ="jerovirat" , rev="";
@@ -113,6 +111,7 @@ public void reversejerovirat() {
 	}
 
 }
+
 
 
 
