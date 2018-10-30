@@ -212,9 +212,7 @@ public class BaseClass
 		System.out.println(reverse1);
 
 	}
-	private void syed() {
-		// TODO Auto-generated method stub
-		System.out.println("Hi Guys, How are you all");
+	public void addVinoth () {
+		System.out.println("hi");
 	}
-
 }
