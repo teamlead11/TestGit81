@@ -9,8 +9,8 @@ public class BaseClass {
 		System.out.println("This is a Base Class");
 		reversedbysyed();
 
-		//BaseClass obj = new BaseClass();
-		//obj.stringReverse();
+		BaseClass obj = new BaseClass();
+		obj.stringReverse();
 	}
 
 	public void add() {
@@ -43,9 +43,8 @@ public class BaseClass {
 	}
 	public static void reversedbysyed() {
 		String s1="syed satham", s2="";
-		for(int i=s1.length()-1; i>=0; i--) {
+		for(int i=s1.length()-1; i>=0;i--) {
 			s2=s2+s1.charAt(i);}
-		System.out.println(s1);
 	System.out.println(s2);
 	
 	}
@@ -86,7 +85,7 @@ public class BaseClass {
 		 }
 	 
 	}
-
+	
 	public void merlinStringReverse()
 	{
 	String str, rev = "";
@@ -102,7 +101,6 @@ public class BaseClass {
     System.out.println("Given String got Reversed:" + rev);
 	}
 
-
 public void reversejerovirat() {
 	// TODO Auto-generated method stub
 	String s ="jerovirat" , rev="";
@@ -113,6 +111,7 @@ public void reversejerovirat() {
 	}
 
 }
+
 
 
 
@@ -152,26 +151,13 @@ public void reverseAnkita() {
 		
 	}
 }
-	
-public void reverseVinoth()
-	{
-		System.out.println("Enter string to reverse:");
-	    
-	    Scanner read = new Scanner(System.in);
-	    String str = read.nextLine();
-	    String reverse = "";
-	    
-	    
-	    for(int i = str.length() - 1; i >= 0; i--)
-	    {
-	        reverse = reverse + str.charAt(i);
-	    }
-	    
-	    System.out.println("Reversed string is:");
-	    System.out.println(reverse);
-		
+
+public void reverse(){
+	String s= "sakthi";
+	String rev="";
+	for (int i=s.length()-1;i>=0;i--){
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
 	}
-
-	
 }
-
+}

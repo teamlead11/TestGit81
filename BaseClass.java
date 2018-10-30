@@ -44,5 +44,15 @@ private void Jero() {
 	System.out.println("conflicts resolved by me");
 
 }
+<<<<<<< HEAD
+public void reverse() {
+	
+	String s ="sakthi" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+	}}
+=======
 >>>>>>> 97a7f2caf8a780177912cf6d4fd0f3fb551c1909
+>>>>>>> a8b371c710d5cee51f051705e3c0de15c3fcd75d
 
