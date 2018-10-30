@@ -215,4 +215,11 @@ public class BaseClass
 	public void addVinoth () {
 		System.out.println("hi");
 	}
+	public void addedBySakthi() {
+		System.out.println("created by sakthi");
+
+	}
+	
+	
+	
 }
