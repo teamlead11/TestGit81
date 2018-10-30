@@ -85,7 +85,7 @@ public class BaseClass {
 		 }
 	 
 	}
-<<<<<<< HEAD
+
 	
 	public void merlinStringReverse()
 	{
@@ -102,7 +102,7 @@ public class BaseClass {
     System.out.println("Given String got Reversed:" + rev);
 	}
 
-=======
+
 public void reversejerovirat() {
 	// TODO Auto-generated method stub
 	String s ="jerovirat" , rev="";
@@ -115,8 +115,7 @@ public void reversejerovirat() {
 }
 
 
->>>>>>> d8111a71508fdfdf7a3aa44c4e7b7cf3b6b9b89c
-}
+
 
 public void reversesri(){
 	String s= "sriram";
@@ -144,8 +143,16 @@ public void reversemano() {
     System.out.println(reverse);
 	
 }
-
+public void reverseAnkita() {
+	// TODO Auto-generated method stub
+	String s ="Ankita" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+		
+	}
 }
+
 public void reverse(){
 	String s= "sakthi";
 	String rev="";
@@ -153,4 +160,5 @@ public void reverse(){
 		rev=rev+s.charAt(i);
 		System.out.println(rev);
 	}
+}
 }
