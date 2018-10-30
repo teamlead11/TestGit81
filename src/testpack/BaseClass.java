@@ -176,18 +176,18 @@ public void reverseJuls()
 {
 	System.out.println("Enter string to reverse:");
     
-    Scanner read = new Scanner(System.in);
-    String str = read.nextLine();
-    String reverse = "";
+    Scanner read1 = new Scanner(System.in);
+    String str1 = read1.nextLine();
+    String reverse1 = "";
     
     
-    for(int i = str.length() - 1; i >= 0; i--)
+    for(int i = str1.length() - 1; i >= 0; i--)
     {
-        reverse = reverse + str.charAt(i);
+        reverse1 = reverse1 + str1.charAt(i);
     }
     
     System.out.println("Reversed string is:");
-    System.out.println(reverse);
+    System.out.println(reverse1);
 	
 }
 	

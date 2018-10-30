@@ -1,8 +1,7 @@
 package testpack;
 
-public class Vin {
+public class New {
 	public static void main(String[] args) {
-		System.out.println("cbfyuiuo");
+		System.out.println("Hello");
 	}
-
 }
