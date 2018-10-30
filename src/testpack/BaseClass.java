@@ -9,8 +9,8 @@ public class BaseClass {
 		System.out.println("This is a Base Class");
 		reversedbysyed();
 
-		BaseClass obj = new BaseClass();
-		obj.stringReverse();
+		//BaseClass obj = new BaseClass();
+		//obj.stringReverse();
 	}
 
 	public void add() {
@@ -43,8 +43,9 @@ public class BaseClass {
 	}
 	public static void reversedbysyed() {
 		String s1="syed satham", s2="";
-		for(int i=s1.length()-1; i>=0;i--) {
+		for(int i=s1.length()-1; i>=0; i--) {
 			s2=s2+s1.charAt(i);}
+		System.out.println(s1);
 	System.out.println(s2);
 	
 	}
