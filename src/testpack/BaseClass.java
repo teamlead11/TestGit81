@@ -171,6 +171,17 @@ public void reverseVinoth()
 	    System.out.println(reverse);
 		
 	}
+public void reversemanibharathi() {
+	// TODO Auto-generated method stub
+	String s ="manibharathi" , rev="";
+	for(int i=s.length()-1;i>=0;i--) {
+		rev=rev+s.charAt(i);
+		System.out.println(rev);
+		
+	}
+
+
+}
 
 	
 }
