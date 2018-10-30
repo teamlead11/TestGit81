@@ -1,10 +1,15 @@
+
 package testpack;
 
 import java.util.Scanner;
 
-public class BaseClass {
+public class BaseClass 
 
-	public static void main(String[] args) {
+{
+
+	public static void main(String[] args) 
+	
+	{
 		// TODO Auto-generated method stub
 		System.out.println("This is a Base Class");
 		reversedbysyed();
@@ -13,77 +18,132 @@ public class BaseClass {
 		//obj.stringReverse();
 	}
 
-	public void add() {
+	public void add() 
+	{
 		System.out.println("test method");
 	}
 
-	public void addBySatham() {
+	public void addBySatham() 
+	{
 		System.out.println("test method added by satham aome changes");
 	}
 
-	public void addByAbinaya() {
+	public void addByAbinaya() 
+	{
 		// TODO Auto-generated method stub
 		System.out.println("Test method added by Abinaya");
 	}
 
-	public void addbyPapu() {
+	public void addbyPapu() 
+	{
 		// TODO Auto-generated method stub
-
 		System.out.println("papu");
 	}
 
-	public void jeroprakash() {
+	public void jeroprakash() 
+	{
 		// TODO Auto-generated method stub
 		System.out.println("add by virat");
-
 	}
 
-	public void reverseByManobalatest() {
+	public void reverseByManobalatest() 
+	{
 		System.out.println("add logic for string reverse");
 	}
-	public static void reversedbysyed() {
+	public static void reversedbysyed() 
+	{
 		String s1="syed satham", s2="";
-		for(int i=s1.length()-1; i>=0; i--) {
-			s2=s2+s1.charAt(i);}
-		System.out.println(s1);
-	System.out.println(s2);
-	
+		for(int i=s1.length()-1; i>=0; i--)
+		
+	{
+			s2=s2+s1.charAt(i);
+			System.out.println(s1);
+			System.out.println(s2);
 	}
-	public void stringReverse() {
+	}
+	
+	public void stringReverse() 
+	{
 		// TODO Auto-generated method stub
 		String name = "ABINAYA", rev = "";
 		System.out.println("Entered string is " + name);
-		for (int i = name.length() - 1; i >= 0; i--) {
+		for (int i = name.length() - 1; i >= 0; i--) 
+		{
 			char c = name.charAt(i);
 			rev = rev + c;
 		}
 		System.out.println("Reversal of String is: " + rev);
 	}	
 	
-	public void stringReverseBharath() {
+	public void stringReverseBharath() 
+	{
 		// TODO Auto-generated method stub
 		String name = "Bharath", rev = "";
 		System.out.println("Entered string is " + name);
-		for (int i = name.length() - 1; i >= 0; i--) {
+		for (int i = name.length() - 1; i >= 0; i--) 
+		{
 			char c = name.charAt(i);
 			rev = rev + c;
 		}
 		System.out.println("Reversal of String is: " + rev);
-	}
 	
+	
+	
+	{
+<<<<<<< HEAD
+		System.out.println("Enter string to reverse:");
+	    
+	    Scanner read = new Scanner(System.in);
+	    String str = read.nextLine();
+	    String reverse = "";
+	    
+	    
+	    for(int i = str.length() - 1; i >= 0; i--)
+	    {
+	        reverse = reverse + str.charAt(i);
+	    }
+	    
+	    System.out.println("Reversed string is:");
+	    System.out.println(reverse);
+	   
 		
+	}
+public void reversestringys()
 {
-	 {
+	System.out.println("Enter string to reverse:");
+    
+    Scanner read = new Scanner(System.in);
+    String str = read.nextLine();
+    String reverse = "";
+    
+    
+    for(int i = str.length() - 1; i >= 0; i--)
+    {
+        reverse = reverse + str.charAt(i);
+    }
+    
+    System.out.println("Reversed string is:");
+    System.out.println(reverse);
+   
+	
+}
+}
+
+=======
+		
 		 int lCaseCount =  0;
 		 String s = "Welcome To JAVA Clas @ 12345";
-		 for (int i = 0; i < s.length(); i++) {
+		 for (int i = 0; i < s.length(); i++) 
+		 {
 		 char ch = s.charAt(i);
-		 if (Character.isLowerCase(ch)) {
+		 if (Character.isLowerCase(ch)) 
+		 {
 		 lCaseCount++;
 		 } 
-		 }
+		 
 		 System.out.println("Lower Case Count code by prabhapapu: " + lCaseCount);
 		 }
+	}
 	 
 	}
 
@@ -169,27 +229,28 @@ public void reverseVinoth()
 	    
 	    System.out.println("Reversed string is:");
 	    System.out.println(reverse);
-	   
 		
 	}
-public void reversestringys()
+
+public void reverseJuls()
 {
 	System.out.println("Enter string to reverse:");
     
-    Scanner read = new Scanner(System.in);
-    String str = read.nextLine();
-    String reverse = "";
+    Scanner read1 = new Scanner(System.in);
+    String str1 = read1.nextLine();
+    String reverse1 = "";
     
     
-    for(int i = str.length() - 1; i >= 0; i--)
+    for(int i = str1.length() - 1; i >= 0; i--)
     {
-        reverse = reverse + str.charAt(i);
+        reverse1 = reverse1 + str1.charAt(i);
     }
     
     System.out.println("Reversed string is:");
-    System.out.println(reverse);
-   
+    System.out.println(reverse1);
 	
 }
+	
 }
 
+>>>>>>> e193a01e134128160c7a05c7d19e387206ee5021
