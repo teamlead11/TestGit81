@@ -172,6 +172,8 @@ public void reverseVinoth()
 		
 	}
 
-	
+	private void syed() {
+System.out.println("Hello Guys");
+	}
 }
 
