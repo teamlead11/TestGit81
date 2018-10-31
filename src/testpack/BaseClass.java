@@ -144,4 +144,13 @@ public void reversemano() {
 	
 }
 
+
+public void update() {
+	System.out.println("update code");
+}
+
+
+
+
+
 }
