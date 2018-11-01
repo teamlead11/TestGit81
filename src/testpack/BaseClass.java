@@ -236,7 +236,10 @@ public class BaseClass
 			System.out.println("Reverse Strin is  :::");
 		}
     	
+    public void addByHari() {
+    	
+    	System.out.println("this is my First Test);
     }
 	
-	
+}
 
