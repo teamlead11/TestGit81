@@ -373,6 +373,12 @@ public void addByHari() {
 }
 
 
+public void addbymano() {
+	System.out.println("created");
+}
+
+
+
 }
 
 
